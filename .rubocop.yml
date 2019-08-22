@@ -1,1 +1,5 @@
 inherit_from: https://raw.githubusercontent.com/xinyifly/rails-style-guide/master/rubocop.yml
+
+Naming/UncommunicativeMethodParamName:
+  Exclude:
+    - app/controllers/graphql_controller.rb

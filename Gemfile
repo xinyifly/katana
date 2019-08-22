@@ -28,6 +28,7 @@ gem 'jbuilder', '~> 2.7'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
 
+gem 'graphql', '~> 1.9'
 gem 'irb', '~> 1.0'
 
 group :development, :test do
@@ -48,6 +49,7 @@ group :development do
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
 
+  gem 'graphiql-rails'
   gem 'listen', '>= 3.0.5', '< 3.2'
 end
 

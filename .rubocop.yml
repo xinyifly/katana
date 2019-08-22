@@ -1,0 +1,1 @@
+inherit_from: https://raw.githubusercontent.com/xinyifly/rails-style-guide/master/rubocop.yml

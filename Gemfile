@@ -52,6 +52,7 @@ group :development do
 
   gem 'graphiql-rails'
   gem 'listen', '>= 3.0.5', '< 3.2'
+  gem 'pry', '~> 0.12.2'
 end
 
 group :test do

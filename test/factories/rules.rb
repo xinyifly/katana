@@ -1,7 +1,7 @@
 FactoryBot.define do
   factory :rule do
     poll
-    key { Faker::Internet.slug }
+    key { Rule.keys.values.sample }
     value { Faker::Internet.slug }
   end
 end

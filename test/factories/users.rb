@@ -1,5 +1,5 @@
 FactoryBot.define do
-  factory :user do
+  factory :user, aliases: [:voter] do
     email { Faker::Internet.email }
     password { Faker::Internet.password }
   end
